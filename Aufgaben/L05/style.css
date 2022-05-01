@@ -1,0 +1,135 @@
+body {
+font-family:  'Oswald', sans-serif; 
+color: rgba(104, 140, 89, 1);
+background-color: rgba(104, 140, 89, 0.2);
+}
+
+header{
+    background-color: rgba(72, 97, 62, 1);
+    text-align: center;
+    font-family: fantasy;
+    animation: slideshow 10s infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    background-image: url(eigenebilder/bild.2.JPG);
+
+
+}
+h1{
+    font-size: 80px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.mydiv{ 
+    background-color: rgba(64,87,55,1);
+    color: rgba(104, 140, 89, 1);
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 1050px;
+    margin-right: 170px;
+}
+h2{
+    margin-left: 350px;
+}
+.fotografien{
+    text-align: center;
+}
+.malerei{
+    text-align: center;
+}
+.videos{
+    text-align: center;
+}
+}
+.bild1{
+    margin-left: 350px;
+    width: 800px;
+    height: 100px;
+    box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
+    
+
+}
+main img:hover{
+    width: 850px;
+  height: 125px;
+}
+img{
+    transition: ease-in-out;
+}
+}
+.bild2{
+    margin-left: 350px;
+    width: 800px;
+    height: 100px;
+    box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
+}
+}
+.bild3{
+    margin-left: 350px;
+    width: 800px;
+    height: 100px;
+    box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
+}
+}
+.mal1{
+    margin-left: 350px;
+    width: 800px;
+    height: 100px;
+   box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
+}
+}
+.mal2{
+    margin-left: 350px;
+    width: 800px;
+    height: 100px;
+    box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
+}
+}
+.mal3{
+    margin-left: 350px;
+    width: 800px;
+    height: 100px;
+    box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
+}
+
+a:hover, a:active {
+    background-color: rgba(104, 140, 89, 0.4);
+  } 
+footer{
+    background-color: rgba(64,87,55,1);
+    text-align: center;
+    font-size: smaller;
+    color: white;
+    
+
+}
+img:first-child:hover{
+    color: black;
+}
+.fixed{
+    background-color: rgba(104, 140, 89, 0.4);
+    position: fixed;
+  top: 200px;
+  right: 10px;
+  width: 300px;
+  border: 3px solid rgba(64,87,55,1);
+  color: white;
+}
+@keyframes slideshow {
+    25% {
+        background-image: url(eigenebilder/bild.1.1.JPG);
+    }
+    50% {
+        background-image: url(eigenebilder/bild.2.JPG);
+    }
+    70% {
+        background-image: url(eigenebilder/bild.3.JPG);
+    }
+    100% {
+        background-image: url(eigenebilder/malerei.1.JPG);
+    }
+
+}
