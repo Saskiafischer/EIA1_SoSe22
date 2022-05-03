@@ -39,6 +39,12 @@ a{
 }
 h2{
     margin-left: 350px;
+    z-index: 2;
+}
+h2 :first-child{
+    position: absolute;
+    z-index: 2;
+    top: 450px;
 }
 .fotografien{
     text-align: center;
@@ -61,6 +67,7 @@ main img:hover{
 }
 img{
     transition: ease-in-out;
+    z-index: 1;
 }
 a:hover, a:active {
     background-color: rgba(104, 140, 89, 0.4);
@@ -99,4 +106,7 @@ img:first-child:hover{
         background-image: url(eigenebilder/malerei.1.JPG);
     }
 
+}
+video{
+    z-index: 1;
 }
