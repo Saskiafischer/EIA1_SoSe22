@@ -1,17 +1,23 @@
 body {
-font-family:  'Oswald', sans-serif; 
+font-family: myFirstFont;
 color: rgba(104, 140, 89, 1);
 background-color: rgba(104, 140, 89, 0.2);
 }
-
+@font-face {
+    font-family: myFirstFont;
+    src: url(Oswald-VariableFont_wght.ttf);
+  }
 header{
     background-color: rgba(72, 97, 62, 1);
     text-align: center;
-    font-family: fantasy;
+    font-family: myFirstFont;
     animation: slideshow 10s infinite;
     animation-direction: alternate-reverse;
     animation-timing-function: ease-in-out;
     background-image: url(eigenebilder/bild.2.JPG);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 
 }
@@ -43,58 +49,19 @@ h2{
 .videos{
     text-align: center;
 }
-}
 .bild1{
     margin-left: 350px;
     width: 800px;
     height: 100px;
     box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
     
-
 }
 main img:hover{
     width: 850px;
-  height: 125px;
 }
 img{
     transition: ease-in-out;
 }
-}
-.bild2{
-    margin-left: 350px;
-    width: 800px;
-    height: 100px;
-    box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
-}
-}
-.bild3{
-    margin-left: 350px;
-    width: 800px;
-    height: 100px;
-    box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
-}
-}
-.mal1{
-    margin-left: 350px;
-    width: 800px;
-    height: 100px;
-   box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
-}
-}
-.mal2{
-    margin-left: 350px;
-    width: 800px;
-    height: 100px;
-    box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
-}
-}
-.mal3{
-    margin-left: 350px;
-    width: 800px;
-    height: 100px;
-    box-shadow: 2px 2px 5px rgba(72, 97, 62, 1);
-}
-
 a:hover, a:active {
     background-color: rgba(104, 140, 89, 0.4);
   } 
