@@ -40,11 +40,8 @@ a{
 h2{
     margin-left: 350px;
     z-index: 2;
-}
-h2 :first-child{
     position: absolute;
-    z-index: 2;
-    top: 450px;
+    
 }
 .fotografien{
     text-align: center;
