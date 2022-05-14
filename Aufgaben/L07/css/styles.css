@@ -23,7 +23,23 @@ transform: scale(1.1);
     transform: scale(1.1);
     opacity: 1;
 }
-.wrapperclick:hover, .wrapperclick.active{
+.wrapperclick:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+#wcger.active{
+    transform: scale(1.1);
+    opacity: 1;
+}
+#wcau.active{
+    transform: scale(1.1);
+    opacity: 1;
+}
+#wcfr.active{
+    transform: scale(1.1);
+    opacity: 1;
+}
+#wcit.active{
     transform: scale(1.1);
     opacity: 1;
 }

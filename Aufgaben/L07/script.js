@@ -6,7 +6,8 @@ window.addEventListener("load", function () {
         document.querySelector(".prozentrel").innerHTML = String(deutschlandEU.toFixed(2) + "%");
         document.querySelector(".prozent2008").innerHTML = String(deutschland.toFixed(2) + "%");
         document.querySelector(".wachstumsrate").innerHTML = String(deutschland08) + " Mio";
-        document.querySelector(".wrapperclick").setAttribute("class", "active");
+        document.querySelector("#wcger").setAttribute("class", "active");
+        document.querySelector(".chart").setAttribute('style', 'height: ' + String(deutschlandEU) + '%');
     }
     document.querySelector(".germany").addEventListener("click", einwohnerzahlDe);
     function einwohnerzahlOe() {
@@ -16,7 +17,8 @@ window.addEventListener("load", function () {
         document.querySelector(".prozentrel").innerHTML = String(oesterreichEU.toFixed(2) + "%");
         document.querySelector(".prozent2008").innerHTML = String(oesterreich.toFixed(2) + "%");
         document.querySelector(".wachstumsrate").innerHTML = String(oesterreich08) + " Mio";
-        document.querySelector(".wrapperclick").setAttribute("class", "active");
+        document.querySelector("#wcau").setAttribute("class", "active");
+        document.querySelector(".chart").setAttribute('style', 'height: ' + String(oesterreichEU) + '%');
     }
     document.querySelector(".austria").addEventListener("click", einwohnerzahlOe);
     function einwohnerzahlFr() {
@@ -26,7 +28,8 @@ window.addEventListener("load", function () {
         document.querySelector(".prozentrel").innerHTML = String(frankreichEU.toFixed(2) + "%");
         document.querySelector(".prozent2008").innerHTML = String(frankreich.toFixed(2) + "%");
         document.querySelector(".wachstumsrate").innerHTML = String(frankreich08) + " Mio";
-        document.querySelector(".wrapperclick").setAttribute("class", "active");
+        document.querySelector("#wcfr").setAttribute("class", "active");
+        document.querySelector(".chart").setAttribute('style', 'height: ' + String(frankreichEU) + '%');
     }
     document.querySelector(".france").addEventListener("click", einwohnerzahlFr);
     function einwohnerzahlIt() {
@@ -36,7 +39,8 @@ window.addEventListener("load", function () {
         document.querySelector(".prozentrel").innerHTML = String(italienEU.toFixed(2) + "%");
         document.querySelector(".prozent2008").innerHTML = String(italien.toFixed(2) + "%");
         document.querySelector(".wachstumsrate").innerHTML = String(italien08) + " Mio";
-        document.querySelector(".wrapperclick").setAttribute("class", "active");
+        document.querySelector("#wcit").setAttribute("class", "active");
+        document.querySelector(".chart").setAttribute('style', 'height: ' + String(italienEU) + '%');
     }
     document.querySelector(".italy").addEventListener("click", einwohnerzahlIt);
     function euStars() {
@@ -46,6 +50,7 @@ window.addEventListener("load", function () {
         document.querySelector(".prozentrel").innerHTML = String(relativEU) + "%";
         document.querySelector(".prozent2008").innerHTML = String(wachstumsrate) + "%";
         document.querySelector(".wachstumsrate").innerHTML = String(gesamtrate) + " Mio";
+        document.querySelector(".chart").setAttribute('style', 'height: ' + String(relativEU) + '%');
     }
     document.querySelector(".stars").addEventListener("click", euStars);
 });
