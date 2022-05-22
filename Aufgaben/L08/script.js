@@ -41,13 +41,12 @@ window.addEventListener("load", function () {
     });
     var sounds = ["a.mp3", "b.mp3", "a.mp3", "b.mp3", "e.mp3", "a.mp3", "c.mp3"];
     var active = 0;
-    function playInterval() {
+    document.querySelector("#playbutton").addEventListener("click", function () {
         setInterval(function () {
             var sound = new Audio("assets/keyboard/" + sound[active]);
             sound.play();
             active++;
         }, 500);
-    }
-    document.querySelector("#playbutton").addEventListener("click", playInterval);
+    });
 });
 //# sourceMappingURL=script.js.map

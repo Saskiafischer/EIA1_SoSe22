@@ -46,12 +46,11 @@ var sounds: string []=["a.mp3", "b.mp3", "a.mp3", "b.mp3", "e.mp3", "a.mp3", "c.
 var active = 0
 
 function playInterval(){
-   setInterval(function(){
-      var sound:HTMLAudioElement = new Audio("assets/keyboard/"+ sound[active]);
-      sound.play();
-      active++;
-   }, 500);
-
+setInterval(function(){
+   var sound:HTMLAudioElement = new Audio("assets/keyboard/"+ sound[active]);
+   sound.play();
+   active++;
+}, 500); 
 }
 
 document.querySelector("#playbutton").addEventListener("click", playInterval)
