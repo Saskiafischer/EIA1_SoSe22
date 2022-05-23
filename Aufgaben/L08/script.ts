@@ -47,7 +47,7 @@ var active = 0
 
 function playInterval(){
 setInterval(function(){
-   var sound:HTMLAudioElement = new Audio("assets/keyboard/"+ sound[active]);
+   var sound:HTMLAudioElement = new Audio("assets/keyboard/"+ sounds[active]);
    sound.play();
    active++;
 }, 500); 
