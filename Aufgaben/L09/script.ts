@@ -51,7 +51,7 @@ document.querySelector("#gf.blackkey_three").addEventListener("click", function(
 document.querySelector("#playbutton").addEventListener("click", click);
 
 var clicker: number = 0;
-function click(){
+function click() {
 clicker++;
 document.getElementById("xxx").setAttribute("class", "fas fa-stop");
 if (clicker == 1) {
@@ -64,7 +64,7 @@ if (clicker == 1) {
       }
    }, 500); 
 }
-if (clicker == 2){
+if (clicker == 2) {
 clicker = 0;
 active = 7;
 document.getElementById("xxx").setAttribute("class", "fas fa-play");
