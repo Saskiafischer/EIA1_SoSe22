@@ -50,7 +50,6 @@ document.querySelector("#gf.blackkey_three").addEventListener("click", function(
 
 document.querySelector("#playbutton").addEventListener("click", click);
 
-});
 var clicker: number = 0;
 function click(){
 clicker++;
@@ -69,5 +68,6 @@ if (clicker == 2){
 clicker = 0;
 active = 7;
 document.getElementById("xxx").setAttribute("class", "fas fa-play");
-}
-}
+}}
+
+});
